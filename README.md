@@ -51,9 +51,7 @@
   <!-- Databases -->
   <h4>🗄️ Databases</h4>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" />
-  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-mongoose-js-object-modeling-for-node-js-applications-logo-color-tal-revivo.png" height="40" alt="Mongoose" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="SQL" />
-  <img src="https://img.icons8.com/external-flat-juicy-fish/60/000000/external-database-coding-and-development-flat-flat-juicy-fish.png" height="40" alt="DBMS" />
   <br/>
   <img src="https://img.shields.io/badge/-Data%20Storage-1E90FF?style=for-the-badge" height="25" />
   <img src="https://img.shields.io/badge/-Data%20Management-FFD700?style=for-the-badge" height="25" />
@@ -93,10 +91,17 @@
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub & Coding Platform Stats
 <div align="center">
+  <!-- GitHub Stats -->
   <img src="https://github-readme-stats.vercel.app/api?username=Ankitsingh2820&show_icons=true&theme=radical" height="160" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Ankitsingh2820&theme=radical&hide_border=true" height="160" />
+  
+  <!-- LeetCode Stats -->
+  <img src="https://leetcard.jacoblin.cool/Ankitsingh2820?theme=radical&font=Sans" height="160" />
+  
+  <!-- GeeksforGeeks Stats -->
+  <img src="https://geeksofpandas.vercel.app/api/gfg?username=Ankitsingh2820&theme=radical" height="160" />
 </div>
 
 <div align="center">
