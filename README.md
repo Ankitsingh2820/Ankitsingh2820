@@ -2,10 +2,6 @@
 
 ###
 
-<img align="right" height="150" src="https://i.imgflip.com/65efzo.gif" />
-
-###
-
 💡 **About Me**  
 - 🎓 B.Tech. in CSE (Cyber Security & Privacy) from **DIT University, Dehradun**  
 - 💻 Skilled in **React.js, Node.js, MongoDB, REST APIs, Authentication, and Microservices**  
