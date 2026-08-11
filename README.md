@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋! My name is Ankit Kumar and I'm a Full-Stack Developer, from Aurangabad, Bihar 🇮🇳</h2>
+<h2 align="left">Hi 👋! My name is Ankit Kumar and I'm a Full-Stack Developer</h2>
 
 ###
 
