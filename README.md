@@ -1,200 +1,279 @@
 <h2 align="left">Hi 👋! I'm Ankit Kumar — AI Engineer & Full-Stack Developer</h2>
 
+<p align="left">
+  Building AI-powered products, intelligent automation systems, and scalable backend applications.
+</p>
+
 ###
 
-🚀 **Building AI-powered products, intelligent automation systems, and scalable web applications.**
-
----
-
-### 👨‍💻 About Me
+## 👨‍💻 About Me
 
 * 🔭 Currently working as a **Data Scientist at Rest The Case**
 * 🤖 Building **Generative AI, RAG, LLM, and AI automation systems**
 * 🧠 Experienced in **LLM fine-tuning, LoRA, RAG pipelines, NLP, OCR, and AI agents**
 * 💻 Strong foundation in **Python, JavaScript, Node.js, React.js, REST APIs, and MongoDB**
-* ⚡ Built production systems processing **50,000+ unstructured legal documents**
-* 🔎 Worked with **FAISS, LangChain, LiteLLM, Ollama, Gemini, and open-source LLMs**
-* ☁️ Experience with **Docker, Linux, AWS basics, CI/CD, and cloud deployments**
-* 🧩 Strong problem-solving background with **200+ LeetCode problems solved**
+* 📚 Worked with **50,000+ unstructured legal documents** for AI training and knowledge systems
+* ⚡ Experienced with **LangChain, FAISS, Qdrant, LiteLLM, Ollama, Gemini, and open-source LLMs**
+* 🗄️ Comfortable working with **PostgreSQL, MongoDB, Redis, Neo4j, and vector databases**
+* 🐳 Experience with **Docker, Linux, CI/CD, cloud deployments, and backend infrastructure**
+* 🧩 Strong problem-solving foundation with **200+ LeetCode problems solved**
 * 🔐 Academic background in **Cyber Security & Privacy**
-* 🌱 Always experimenting with **AI agents, automation, distributed systems, and developer tools**
+* 🌱 Currently exploring **AI agents, intelligent automation, distributed systems, and production LLM applications**
 
 ---
 
-### 🧠 AI & Data Science
+## 🧠 AI & Data Science
 
-* **Generative AI & LLMs**
+### Generative AI & LLMs
 
-  * LLM Fine-Tuning
-  * LoRA / PEFT
-  * Prompt Engineering
-  * RAG
-  * AI Agents
-  * LLM Evaluation
-  * Model Routing
+* Large Language Models
+* Retrieval-Augmented Generation (RAG)
+* LLM Fine-Tuning
+* LoRA / PEFT
+* Prompt Engineering
+* AI Agents
+* LLM Evaluation
+* Model Routing
+* Embeddings & Semantic Search
+* Hybrid Search
+* Knowledge Graphs
 
-* **AI / ML Frameworks**
+### AI / ML Tools
 
-  * LangChain
-  * FAISS
-  * Ollama
-  * LiteLLM
-  * Gemini API
-  * OpenAI APIs
-  * Hugging Face
+* LangChain
+* FAISS
+* Qdrant
+* Ollama
+* LiteLLM
+* Gemini API
+* Groq
+* Hugging Face
 
-* **Data & NLP**
+### Data & NLP
 
-  * Python
-  * Pandas
-  * NumPy
-  * spaCy
-  * OCR
-  * Document Processing
-  * Data Pipelines
-  * Unstructured Data → Structured JSON
+* Python
+* Pandas
+* NumPy
+* spaCy
+* OCR
+* Document Processing
+* Data Pipelines
+* Unstructured Data Processing
+* JSON Data Transformation
 
 ---
 
-### 🚀 Featured Projects
+## 🚀 Featured Projects
 
-#### 🤖 LIA — AI Legal Intelligence Platform
+### 🧠 KnowledgeForge — Enterprise AI Knowledge Platform
 
-AI-powered legal assistant built for **legal research, document analysis, case summarization, contract drafting, and intelligent document interaction**.
+An **AI-powered enterprise knowledge platform** that ingests documents and organizational data, builds searchable knowledge bases, and provides grounded answers with citations.
+
+**Tech:** Python · FastAPI · React · Gemini · LiteLLM · Qdrant · PostgreSQL · Neo4j · Redis · Celery · Docker
+
+* 🏢 Built a **multi-tenant knowledge platform** with organization-level RBAC
+* 📄 Implemented asynchronous document ingestion using **Celery + Redis**
+* 🔌 Added connectors for **local files, GitHub, Google Drive, and Slack**
+* 🔎 Implemented **hybrid retrieval** combining vector search with a Neo4j knowledge graph
+* 📝 Added document versioning, diff/rollback, and incremental indexing
+* 🔄 Implemented GitHub webhook-based automatic ingestion
+* 🧠 Built an AI reflection layer to evaluate whether generated answers are **grounded and properly cited**
+* 📊 Added Prometheus metrics and **LLM usage/cost tracking**
+* 🐳 Containerized the complete system using Docker Compose
+
+🔗 **GitHub:**
+https://github.com/Ankitsingh2820/KnowledgeForge
+
+---
+
+### 🎯 PlacementOS — AI-Powered Job Search & Career Platform
+
+An AI-powered career platform combining **job discovery, resume optimization, interview preparation, coding practice, career roadmaps, and application tracking** into a single workflow.
+
+**Tech:** Python · FastAPI · React · Vite · Tailwind CSS · Groq · Llama 3.3 70B · Web Speech API
+
+* 💼 Aggregates job listings from **8+ job boards**
+* 🎯 Built AI-powered **job matching and resume keyword ranking**
+* 🎤 Developed an AI mock interview system with **voice interaction**
+* 📊 Generates interview scorecards, gap analysis, and personalized study plans
+* 📄 Built AI-powered **resume tailoring** with ATS keyword analysis
+* 🔄 Created an application workflow combining fit analysis, resume tailoring, outreach, and follow-ups
+* 💻 Added AI-powered coding practice with **Monaco Editor**
+* 🗺️ Built domain-specific **AI career roadmaps**
+* ☁️ Deployed the application using Render
+
+🌐 **Live Demo:**
+https://placementos-k6zc.onrender.com
+
+🔗 **GitHub:**
+https://github.com/Ankitsingh2820/placementOS
+
+---
+
+### ⚖️ LIA — AI Legal Intelligence Platform
+
+A production-focused **Generative AI platform for legal research, document analysis, case summarization, contract drafting, and intelligent document interaction**.
 
 **Tech:** Python · LLMs · RAG · LangChain · FAISS · LiteLLM · React · Node.js
 
-* Built RAG pipelines over custom legal knowledge bases
-* Worked with large-scale legal document datasets
-* Implemented intelligent model routing using **LiteLLM**
-* Integrated AI capabilities into a production web application
+* 📚 Processed and structured **50,000+ unstructured legal documents**
+* 🔎 Developed RAG pipelines over custom legal knowledge bases
+* 🧠 Fine-tuned LLMs using **LoRA** for domain-specific legal applications
+* ⚡ Implemented intelligent model routing using **LiteLLM**
+* 📝 Built AI-powered document and legal research workflows
+* 🤖 Integrated AI services into a production web application
+* 📈 Improved retrieval-based answer accuracy and relevance through domain-specific knowledge integration
+
+🌐 **Live Platform:**
+https://lia.restthecase.com/
 
 ---
 
-#### ⚙️ AI DevOps Agent
+### 💻 CodeShare — Real-Time Collaborative Code Editor
 
-An autonomous DevOps system designed to **monitor, diagnose, and resolve infrastructure issues using AI**.
-
-**Tech:** Python · FastAPI · Docker · Prometheus · Ollama · LLMs
-
-* Monitors infrastructure metrics using Prometheus
-* Uses LLM-driven reasoning for incident analysis
-* Executes corrective actions through automated workflows
-* Containerized and deployed on a self-hosted environment
-
----
-
-#### 💻 CodeShare — Real-Time Collaborative Code Editor
-
-Real-time collaborative coding platform supporting **live code editing, execution, and synchronized I/O**.
+A real-time collaborative coding platform enabling users to **write, execute, and synchronize code in real time**.
 
 **Tech:** React.js · Node.js · Socket.IO
 
-* Real-time collaboration
-* Live code execution
-* Synchronized input/output
-* Low-latency communication
+* ⚡ Implemented real-time collaboration using **WebSockets**
+* 👥 Built synchronized code editing
+* ▶️ Added live code execution
+* 🔄 Implemented real-time input/output synchronization
+* 🚀 Designed low-latency client-server communication
 
-🔗 **Repository:** https://github.com/Ankitsingh2820/codeShare-Frontend
+🔗 **Frontend:**
+https://github.com/Ankitsingh2820/codeShare-Frontend
 
----
-
-#### 🏡 GoHolidays — Full-Stack Travel Platform
-
-Airbnb-inspired full-stack web application with authentication, authorization, listings, reviews, image uploads, and scalable CRUD operations.
-
-**Tech:** Node.js · Express.js · MongoDB · Mongoose · EJS · Passport.js · Multer · Cloudinary
-
-🔗 **Repository:** https://github.com/Ankitsingh2820/GoHolidays-main
+🔗 **Backend:**
+https://github.com/Ankitsingh2820/codeShare-Backend
 
 ---
 
-### 🛠️ Tech Stack
+### 🏡 GoHolidays — Full-Stack Travel Platform
+
+An Airbnb-inspired full-stack travel platform built using the **MVC architecture**.
+
+**Tech:** Node.js · Express.js · MongoDB · Mongoose · EJS · Passport.js · Cloudinary · Mapbox
+
+* 🔐 Implemented authentication and authorization
+* 🏠 Built complete listing CRUD operations
+* ⭐ Added reviews and ratings
+* 🖼️ Implemented image uploads using **Cloudinary**
+* 🗺️ Integrated **Mapbox** for location-based functionality
+* 🔒 Implemented sessions and secure data handling
+* ☁️ Deployed the application using Render
+
+🔗 **GitHub:**
+https://github.com/Ankitsingh2820/GoHolidays-main
+
+---
+
+## 🛠️ Tech Stack
 
 <div align="left">
 
-<!-- AI / ML -->
-
-<h4>🤖 AI & Machine Learning</h4>
+<h4>🤖 AI / Machine Learning</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="Pandas" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="NumPy" />
 
 <br/><br/>
 
-<!-- Backend -->
-
 <h4>⚙️ Backend & APIs</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="Express.js" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI" />
 
 <br/><br/>
 
-<!-- Frontend -->
-
 <h4>🌐 Frontend</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
 
 <br/><br/>
 
-<!-- Databases -->
-
 <h4>🗄️ Databases & Storage</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
 
 <br/><br/>
 
-<!-- DevOps -->
-
 <h4>☁️ DevOps & Infrastructure</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="Docker" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" />
 
 <br/><br/>
 
-<!-- Languages -->
-
 <h4>💻 Programming Languages</h4>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java" />
+
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
 
 </div>
 
 ---
 
-### 🔥 What I Build
+## 🔥 What I Build
 
 ```text
-AI Applications
-       ↓
-LLMs → RAG → Agents → Automation
-       ↓
-Backend APIs → Databases → Frontend
-       ↓
-Docker → Cloud → Production
+                Real-World Problem
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Data / Docs   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ AI / LLM Layer  │
+              │  RAG · Agents   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Backend & APIs  │
+              │ FastAPI · Node  │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Production App  │
+              │ React · Docker  │
+              └─────────────────┘
 ```
 
-I'm particularly interested in building systems where **AI solves an actual business problem**, rather than simply integrating an LLM into an application.
+I enjoy building systems where **AI solves an actual business problem**, rather than simply integrating an LLM into an application.
 
 ---
 
-### 📊 GitHub & Coding Stats
+## 📊 GitHub & Coding Stats
 
 <div align="center">
 
@@ -202,7 +281,7 @@ I'm particularly interested in building systems where **AI solves an actual busi
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Ankitsingh2820&theme=radical&hide_border=true" height="160" />
 
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitsingh2820&layout=compact&theme=radical" height="160" />
 
@@ -212,15 +291,19 @@ I'm particularly interested in building systems where **AI solves an actual busi
 
 ---
 
-### 🐍 Contribution Graph
+## 🐍 Contribution Graph
+
+<div align="center">
 
 ![GitHub Snake Light](https://github.com/Ankitsingh2820/Ankitsingh2820/blob/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 ![GitHub Snake Dark](https://github.com/Ankitsingh2820/Ankitsingh2820/blob/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
+</div>
+
 ---
 
-### 📬 Connect With Me
+## 📬 Connect With Me
 
 <div align="left">
 
@@ -240,18 +323,20 @@ I'm particularly interested in building systems where **AI solves an actual busi
 
 ---
 
-### 💡 Current Focus
+## 💡 Current Focus
 
 ```text
-🤖 Generative AI
-🧠 LLMs & RAG
+🤖 Generative AI & LLM Applications
+🧠 RAG & Knowledge Systems
 ⚡ AI Agents & Automation
 📊 Data Engineering & NLP
-🔧 Backend Systems
+🔧 Backend & Distributed Systems
 ☁️ Cloud & DevOps
 🔐 Cybersecurity
 ```
 
 ---
 
-⭐ **Fun Fact:** I enjoy turning messy data, complex workflows, and real-world problems into **intelligent systems that actually work.** 🚀
+### ⭐ Fun Fact
+
+I enjoy turning **messy data, complex workflows, and real-world problems into intelligent systems that actually work.** 🚀
