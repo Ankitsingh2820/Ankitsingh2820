@@ -8,7 +8,7 @@
 
 ## 👨‍💻 About Me
 
-* 🔭 Currently working as a **Data Scientist at Rest The Case**
+* 🔭 Currently working as a **Ai developer at Rest The Case**
 * 🤖 Building **Generative AI, RAG, LLM, and AI automation systems**
 * 🧠 Experienced in **LLM fine-tuning, LoRA, RAG pipelines, NLP, OCR, and AI agents**
 * 💻 Strong foundation in **Python, JavaScript, Node.js, React.js, REST APIs, and MongoDB**
